@@ -18,9 +18,9 @@ app.use(express.json());
 // production config
 app.use(express.static(path.join(__dirname, '/server/client/build')));
 
-app.get("*", (req, res) => 
+app.get("*", (req, res) => {
     res.sendFile(path.join(__dirname, 'client', 'build', 'index.html'));
-);
+});
 
 app.use('/api', api);
 
