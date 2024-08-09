@@ -1,0 +1,41 @@
+section{
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0%;
+}
+
+.signup-content{
+    display: flexbox;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 0;
+}
+
+.form-title{
+    text-align: center;
+    padding-top: 2rem;
+    margin: 0;
+}
+
+.signup-content form {
+    flex: 1;
+    border: 0;
+    padding-left: 20rem;
+    padding-right: 20rem;
+}
+
+.submit-btn {
+    display: inline-block;
+    background: #a71d1d;
+    color: #fff;
+    padding: 10px 30px;
+    margin: 30px 0;
+    border-radius: 8px;
+    transition: background 0.2s;
+    border: none;
+    cursor: pointer;
+}
+
+.submit-btn:hover {
+    background-color: #563434;
+}

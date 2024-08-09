@@ -1,0 +1,30 @@
+.about-container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content1{
+    flex: 1;
+    display: flexbox;
+    align-items: center;
+}
+
+.content2{
+    display: flexbox;
+    align-items: center;
+}
+
+.content img, .content2 img {
+    display: flexbox;
+    width: 30%;   
+}
+
+.content p{
+    margin: 1rem;
+}
+
+.content h3 {
+    text-decoration: solid;
+}
